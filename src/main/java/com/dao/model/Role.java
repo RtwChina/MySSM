@@ -1,6 +1,8 @@
 package com.dao.model;
 
-public class Role {
+import java.io.Serializable;
+
+public class Role implements Serializable {
 //    private Long id;
     private String roleName;
     private String note;
@@ -27,5 +29,13 @@ public class Role {
 
     public void setNote(String note) {
         this.note = note;
+    }
+
+    @Override
+    public String toString() {
+        return "Role{" +
+                "roleName='" + roleName + '\'' +
+                ", note='" + note + '\'' +
+                '}';
     }
 }
