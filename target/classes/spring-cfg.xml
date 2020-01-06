@@ -1,17 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <beans xmlns="http://www.springframework.org/schema/beans"
 	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	   xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+	   xmlns:aop="http://www.springframework.org/schema/aop"
 	   xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
-	http://www.springframework.org/schema/context
-	http://www.springframework.org/schema/context/spring-context.xsd
-	 http://www.springframework.org/schema/tx
-	 http://www.springframework.org/schema/tx/spring-tx.xsd">
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop.xsd">
 	<!-- 数据库连接池 -->
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://localhost:3306/chapter5"/>
+		<property name="url" value="jdbc:mysql://localhost:3306/test?useUnicode=true&amp;characterEncoding=utf8"/>
 		<property name="username" value="root" />
 		<property name="password" value="123456" />
 		<property name="maxActive" value="255" />
@@ -31,5 +29,19 @@
 	   <property name="basePackage" value="com.dao.mapper" />
 	   <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
 	   <property name="annotationClass" value="org.springframework.stereotype.Repository" />
+	</bean>
+	<!-- aop 注解实现 -->
+	<aop:aspectj-autoproxy/>
+
+	<!--异步Event框架设置-->
+	<bean id="asyncEventRejectHandler" class="com.listener.AsyncEventRejectHandler"/>
+
+	<bean id="asyncEventTaskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+		<property name="corePoolSize" value="10"/>
+		<property name="maxPoolSize" value="100"/>
+		<property name="queueCapacity" value="2000"/>
+		<property name="keepAliveSeconds" value="2000"/>
+		<property name="threadNamePrefix" value="AsyncEventTaskExecutor-"/>
+		<property name="rejectedExecutionHandler" ref="asyncEventRejectHandler"/>
 	</bean>
 </beans>

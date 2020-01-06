@@ -23,6 +23,7 @@ public class TestController {
     @Autowired
     private IRoleService roleService;
 
+    //http://localhost:8080/my/getRole?id=1
     @RequestMapping(value = "/getRole",method = RequestMethod.GET)
     public ModelAndView getRole(@RequestParam("id")Long id) {
         Role role = roleService.getRole(id);

@@ -7,17 +7,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0eb1f8c2-c6e2-431e-a26e-7e2512ba786a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_1_8_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JsonStringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Spring_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Spring_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aop/LoggerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aop/LoggerManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/TestRtw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/listener/AsyncEventRejectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/listener/GoodJobEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/listener/model/GoodJobEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/proxy/cglibproxy/EnhanceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/proxy/jdkproxy/MyInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/proxy/jdkproxy/SourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/proxy/jdkproxy/SourceTestImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/proxy/jdkproxy/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/Spring_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Spring_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/MyJDBC/MyJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/MyJDBC/MyJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Spring-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring-1.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring-1.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring-1.0-SNAPSHOT/WEB-INF/classes/spring-cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring-1.0-SNAPSHOT/WEB-INF/classes/spring-cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-cfg.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,27 +78,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Jsp File" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>&lt;context-param&gt;</find>
-      <find>war</find>
-      <find>bug</find>
-      <find>spring.factories</find>
-      <find>registerOrEscalateApcAsRequired</find>
-      <find>setTransactionSynchronization</find>
-      <find>proceedWithInvocation</find>
-      <find>suspend</find>
-      <find>triggerAfterCompletion</find>
-      <find>DataSource</find>
-      <find>logback</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -115,18 +118,21 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Idea_workspace\Spring\src\main\webapp" />
+      <recent name="H:\Idea_workspace\Spring\src\main\java\dao\mapper" />
+      <recent name="H:\Idea_workspace\Spring\src\main\java\dao\model" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="H:\Idea_workspace\Spring\src\main\webapp\WEB-INF\lib" />
       <recent name="H:\Idea_workspace\Spring\src\main\resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\Idea_workspace\Spring\src\main\webapp" />
-      <recent name="H:\Idea_workspace\Spring\src\main\java\dao\mapper" />
-      <recent name="H:\Idea_workspace\Spring\src\main\java\dao\model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -148,10 +154,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EnhanceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.service.proxy.cglibproxy.EnhanceDemo" />
+      <module name="Spring" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.service.proxy.cglibproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JsonStringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JsonStringTest" />
       <module name="Spring" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.service.proxy.jdkproxy.Test" />
+      <module name="Spring" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.service.proxy.jdkproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -290,10 +324,14 @@
       <item itemvalue="Application.main" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.JsonStringTest" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.EnhanceDemo" />
       <item itemvalue="Tomcat Server.TT" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnhanceDemo" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.JsonStringTest" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.main" />
@@ -343,6 +381,15 @@
       <workItem from="1570513537525" duration="622000" />
       <workItem from="1570516407232" duration="2302000" />
       <workItem from="1570528426908" duration="458000" />
+      <workItem from="1576475463798" duration="1593000" />
+      <workItem from="1577167755865" duration="5179000" />
+      <workItem from="1577235912224" duration="560000" />
+      <workItem from="1577321977166" duration="606000" />
+      <workItem from="1577411111038" duration="3107000" />
+      <workItem from="1577586415238" duration="5430000" />
+      <workItem from="1577668583098" duration="940000" />
+      <workItem from="1578043829072" duration="8773000" />
+      <workItem from="1578207078044" duration="3084000" />
     </task>
     <servers />
   </component>
@@ -367,12 +414,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/controller/TestController.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/controller/TestController.java</url>
-          <line>37</line>
+          <line>38</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -391,17 +433,47 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/controller/TestController.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/service/proxy/cglibproxy/EnhanceDemo.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/tools/repository/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
-          <line>1114</line>
-          <option name="timeStamp" value="15" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/service/impl/RoleServiceImpl.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/aop/LoggerAdvice.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/aop/LoggerAdvice.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/aop/LoggerAdvice.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/listener/GoodJobEventListener.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/tools/repository/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE-sources.jar!/org/springframework/transaction/support/TransactionSynchronizationUtils.java</url>
+          <line>167</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="getApplicationListeners" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="masterDetails">
     <states>

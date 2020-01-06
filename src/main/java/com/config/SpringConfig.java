@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.TransactionManagementConfigure
 
 import javax.sql.DataSource;
 
-@ComponentScan(basePackages={"com"})
+//@ComponentScan(basePackages={"com"})
 @ImportResource({"classpath:spring-cfg.xml"})
 @Configuration
 @EnableTransactionManagement
