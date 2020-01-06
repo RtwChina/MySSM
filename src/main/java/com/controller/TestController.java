@@ -4,16 +4,12 @@ import com.dao.model.Role;
 import com.dao.model.RoleParams;
 import com.service.IRoleService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.view.json.MappingJackson2JsonView;
-
-import java.util.List;
 
 //注解@Controller表示它是一个控制器
 @Controller("myController")
