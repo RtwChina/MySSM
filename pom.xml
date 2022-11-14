@@ -12,7 +12,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!-- spring版本号 -->
-        <spring.version>4.2.5.RELEASE</spring.version>
+        <spring.version>4.2.7.RELEASE</spring.version>
     </properties>
 
     <!--设置每个模块的jdk版本都是1.8-->
